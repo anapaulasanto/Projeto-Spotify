@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="vars.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main-content.css">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/c3d0edbf7e.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +16,7 @@
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
+                    <img src="/src/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
 
@@ -71,6 +73,33 @@
             </div>
         </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+
+                <div class="navigation">
+                    <buton class="arrow-left">
+                        <img src="/src/assets/icons/small-left.png" alt="">
+                    </buton>
+                    <buton class="arrow-right">
+                        <img src="/src/assets/icons/small-right.png" alt="">
+                    </buton>
+                </div>
+
+                <div class="header__search">
+                    <img src="/src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" placeholder="O que você quer ouvir?">
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <footer>
         <div class="text-footer">
 
